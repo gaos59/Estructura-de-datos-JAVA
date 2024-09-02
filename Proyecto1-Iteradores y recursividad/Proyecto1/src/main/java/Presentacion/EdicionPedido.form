@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="Editar pedido"/>
+    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+      <Color id="Default Cursor"/>
+    </Property>
+    <Property name="location" type="java.awt.Point" editor="org.netbeans.beaninfo.editors.PointEditor">
+      <Point value="[0, 0]"/>
+    </Property>
+    <Property name="locationByPlatform" type="boolean" value="true"/>
+    <Property name="name" type="java.lang.String" value="" noResource="true"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="BtnRegresar" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="63" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="LblNombreCliente" min="-2" max="-2" attributes="0"/>
+                          <Component id="LblNumeroCliente" min="-2" max="-2" attributes="0"/>
+                          <Component id="LblFormaPago" min="-2" max="-2" attributes="0"/>
+                          <Component id="LblDireccionEntrega" min="-2" max="-2" attributes="0"/>
+                          <Component id="LblTipoPedido" min="-2" max="-2" attributes="0"/>
+                          <Component id="LblCodigoDiseno" min="-2" max="-2" attributes="0"/>
+                          <Component id="LblCantidad" min="-2" max="-2" attributes="0"/>
+                          <Component id="LblTalla" min="-2" max="-2" attributes="0"/>
+                          <Component id="LblTipoCamiseta" min="-2" max="-2" attributes="0"/>
+                          <Component id="LblID" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="CbxTipoCamiseta" min="-2" pref="200" max="-2" attributes="0"/>
+                          <Component id="CbxTalla" min="-2" pref="60" max="-2" attributes="0"/>
+                          <Component id="TxfCantidad" min="-2" pref="43" max="-2" attributes="0"/>
+                          <Component id="TxfCodigoDiseno" alignment="0" min="-2" pref="110" max="-2" attributes="0"/>
+                          <Component id="CbxTipoPedido" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
+                          <Component id="TxfDireccionEntrega" alignment="0" min="-2" pref="250" max="-2" attributes="0"/>
+                          <Component id="TxfNombreCliente" alignment="0" min="-2" pref="230" max="-2" attributes="0"/>
+                          <Component id="CbxFormaPago" alignment="0" min="-2" pref="180" max="-2" attributes="0"/>
+                          <Component id="TxfTelefonoCliente" alignment="0" min="-2" pref="100" max="-2" attributes="0"/>
+                          <Component id="LblIDMostrar" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="56" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="212" max="-2" attributes="0"/>
+              <Component id="BtnAgregarPedido" min="-2" pref="120" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="LblID" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="LblIDMostrar" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="LblTipoCamiseta" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="CbxTipoCamiseta" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="LblTalla" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="CbxTalla" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="LblCantidad" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="TxfCantidad" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="LblCodigoDiseno" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="TxfCodigoDiseno" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="LblTipoPedido" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="CbxTipoPedido" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="LblDireccionEntrega" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="TxfDireccionEntrega" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="LblFormaPago" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="CbxFormaPago" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="LblNumeroCliente" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="TxfTelefonoCliente" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="LblNombreCliente" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="TxfNombreCliente" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="BtnAgregarPedido" min="-2" pref="31" max="-2" attributes="0"/>
+              <EmptySpace pref="21" max="32767" attributes="0"/>
+              <Component id="BtnRegresar" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="LblTipoCamiseta">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tipo de camiseta:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LblTalla">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Talla:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LblCantidad">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cantidad:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LblCodigoDiseno">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Codigo de dise&#xf1;o:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LblTipoPedido">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tipo de pedido:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LblDireccionEntrega">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Direcci&#xf3;n de entrega:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LblFormaPago">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Forma de pago:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LblNumeroCliente">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="N&#xfa;mero telef&#xf3;nico del cliente:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LblNombreCliente">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nombre completo del cliente:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="CbxTipoCamiseta">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="7">
+            <StringItem index="0" value="Lisa manga larga"/>
+            <StringItem index="1" value="Polo manga corta"/>
+            <StringItem index="2" value="Estampado manga corta"/>
+            <StringItem index="3" value="Lisa manga corta"/>
+            <StringItem index="4" value="Deportiva manga larga"/>
+            <StringItem index="5" value="Deportiva manga corta"/>
+            <StringItem index="6" value="Deportiva sin mangas"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="CbxTalla">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="5">
+            <StringItem index="0" value="S"/>
+            <StringItem index="1" value="M"/>
+            <StringItem index="2" value="L"/>
+            <StringItem index="3" value="XL"/>
+            <StringItem index="4" value="2XL"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TxfCantidad">
+    </Component>
+    <Component class="javax.swing.JButton" name="BtnRegresar">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="99" red="ff" type="rgb"/>
+        </Property>
+        <Property name="label" type="java.lang.String" value="Regresar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BtnRegresarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TxfCodigoDiseno">
+    </Component>
+    <Component class="javax.swing.JComboBox" name="CbxTipoPedido">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="2">
+            <StringItem index="0" value="Recoger en tienda"/>
+            <StringItem index="1" value="Env&#xed;o a domicilio"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TxfDireccionEntrega">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="CbxFormaPago">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="Efectivo"/>
+            <StringItem index="1" value="Sinpe m&#xf3;vil"/>
+            <StringItem index="2" value="Transferencia bancaria"/>
+            <StringItem index="3" value="Tarjeta de d&#xe9;bito/cr&#xe9;dito"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TxfTelefonoCliente">
+    </Component>
+    <Component class="javax.swing.JTextField" name="TxfNombreCliente">
+    </Component>
+    <Component class="javax.swing.JButton" name="BtnAgregarPedido">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="cc" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Editar pedido"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BtnAgregarPedidoActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LblID">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ID"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LblIDMostrar">
+    </Component>
+  </SubComponents>
+</Form>

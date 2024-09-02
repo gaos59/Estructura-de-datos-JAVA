@@ -1,0 +1,21 @@
+Presentasión:
+Menu principal
+Registro Pedido:
+	El ID se debe generar de forma automatica
+Listado de Pedidos:
+	Busqueda por medio del número de teléfono
+	Edición de un registro donde se muestren los valores actuales y se puedan editar
+	Mostrar valor cantidad en binario utilizando recursividad
+	Poder Ordenar los pedidos:
+		Ascendente (De menor a mayor) por el campo número telefónico con el algoritmo or inserción
+		Descendente por el valor Código de diseño con el algoritmo Merge sort
+
+Negocio:
+ArrayList de pedidos
+Generador de ID
+Busqueda por el número de telefono
+Edición de un registro
+Obtener valor en binario utilizando recursividad
+Ordenar Pedidos
+	Ascendente número de telefono
+	Descendente por valor de Código de diseño
